@@ -60,5 +60,4 @@ WHERE AccountID = 1;
 -- Step C: Finalize the transaction
 COMMIT;
 
--- Step D: Verify that the audit log captured the balance modification automatically
 SELECT * FROM AuditLogs;
