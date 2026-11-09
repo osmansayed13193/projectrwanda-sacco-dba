@@ -72,7 +72,6 @@ BEGIN
                    OLD.Status, '" to "', NEW.Status, '"'),
             CURRENT_TIMESTAMP
         );
-
     END IF;
     RETURN NEW;
 END;
